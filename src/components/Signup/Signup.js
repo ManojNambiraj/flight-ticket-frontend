@@ -16,7 +16,10 @@ function Signup() {
       location: "",
     },
     onSubmit: async (values) => {
-      await axios.post("http://localhost:5000/register", values);
+      await axios.post(
+        "https://flight-ticket-booking-backend.herokuapp.com/register",
+        values
+      );
       alert("User Registered");
     },
   });

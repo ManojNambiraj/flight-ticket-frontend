@@ -14,7 +14,10 @@ function Login() {
       password: "",
     },
     onSubmit: async (values) => {
-      await axios.post("http://localhost:5000/login", values);
+      await axios.post(
+        "https://flight-ticket-booking-backend.herokuapp.com/login",
+        values
+      );
       alert("Login Successfull");
       navigate("/flightDetails");
     },
