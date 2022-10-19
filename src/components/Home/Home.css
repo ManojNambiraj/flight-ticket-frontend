@@ -1,0 +1,34 @@
+.home_container {
+  background-image: url("https://www.techadvisor.com/wp-content/uploads/2022/06/how-to-get-a-cheap-flight-online.jpg?quality=50&strip=all");
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.location_box {
+  position: absolute;
+  top: 33%;
+  left: 15%;
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+}
+
+.from_and_to_label {
+  color: whitesmoke;
+  text-shadow: 10px 5px 7px rgba(119, 128, 54, 1),
+    -8px 5px 7px rgba(128, 24, 24, 0.84);
+  font-size: larger;
+}
+
+.location_search_btn {
+  width: fit-content;
+  margin: 5% 0% 0% 45%;
+  color: whitesmoke;
+  font-size: large;
+  font-weight: 600;
+  box-shadow: -8px 10px 31px 20px rgba(225, 187, 187, 0.84);
+  -webkit-box-shadow: -8px 10px 31px 20px rgba(225, 187, 187, 0.84);
+  -moz-box-shadow: -8px 10px 31px 20px rgba(225, 187, 187, 0.84);
+}

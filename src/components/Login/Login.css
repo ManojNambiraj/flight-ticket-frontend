@@ -1,0 +1,22 @@
+.login_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_form {
+  width: 25%;
+  border: 1px solid darkgray;
+  padding: 30px;
+  border-radius: 50px 50px 50px 50px;
+  margin-top: 13%;
+}
+
+.bottom_label {
+  margin-left: 20px;
+}
+
+.login_profile {
+  border-radius: 60%;
+  margin: 5% 5% 10% 35%;
+}

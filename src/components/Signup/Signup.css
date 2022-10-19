@@ -1,0 +1,31 @@
+.Signup_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup_profile {
+  border-radius: 60%;
+  margin: 2% 5% 5% 35%;
+}
+
+.signup_form {
+  width: 30%;
+  border: 1px solid darkgray;
+  padding: 30px;
+  border-radius: 10%;
+  margin-top: 2%;
+}
+
+.signup_button {
+  justify-content: center;
+}
+
+.two_column_box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.age_input_box {
+  width: 100px;
+}

@@ -1,0 +1,33 @@
+.navbar_container {
+  position: fixed;
+  top: 0;
+  padding: 15px 0px 15px 15px;
+  z-index: 1;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.navbar-brand {
+  color: azure;
+  font-size: xx-large;
+  font-weight: 700;
+  text-shadow: 10px 5px 7px rgba(119, 128, 54, 1),
+    -8px 5px 7px rgba(128, 24, 24, 0.84);
+}
+
+.login_signup_buttons {
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+  margin-right: 5%;
+}
+
+.nav_buttons {
+  color: azure;
+  font-size: large;
+  font-weight: 700;
+  text-shadow: 10px 5px 7px rgba(119, 128, 54, 1),
+    -8px 5px 7px rgba(128, 24, 24, 0.84);
+}
